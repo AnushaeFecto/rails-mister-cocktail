@@ -5,14 +5,9 @@
 
   <% @cocktails.each do |cocktail| %>
     <li>
-  <!-- <div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-4"> -->
+
       <%= link_to cocktail.name, cocktail_path(cocktail) %>
-<!--       <image_tag("drinks.jpg" :options) > -->
+
     </li>
     <% end %>
-  <!-- </div>
-</div>
-</div> -->
-</ol>
+

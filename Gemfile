@@ -7,6 +7,10 @@ end
 
 ruby '2.4.3'
 
+gem 'cloudinary'
+
+gem 'carrierwave', '~> 1.2'
+
 gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
